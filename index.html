@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade do KM360</title>
+<style>
+  :root { color-scheme: light dark; --texto: #1d2327; --fraco: #5b6770; --fundo: #ffffff; --linha: #e3e7ea; --marca: #0f7a5c; }
+  @media (prefers-color-scheme: dark) { :root { --texto: #e6eaed; --fraco: #9aa6ae; --fundo: #121517; --linha: #2a3034; --marca: #3cc19a; } }
+  body { margin: 0; background: var(--fundo); color: var(--texto); font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 20px 64px; }
+  h1 { font-size: 1.8rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 36px 0 8px; padding-top: 20px; border-top: 1px solid var(--linha); }
+  .data { color: var(--fraco); margin: 0 0 24px; }
+  a { color: var(--marca); }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: .95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--linha); }
+  th { color: var(--fraco); font-weight: 600; }
+  .tabela { overflow-x: auto; }
+  .resumo { background: color-mix(in srgb, var(--marca) 10%, transparent); border-radius: 10px; padding: 14px 18px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Política de Privacidade do KM360</h1>
+<p class="data">Última atualização: 12 de setembro de 2026</p>
+
+<p class="resumo"><strong>Em resumo:</strong> o KM360 não tem conta de usuário nem servidor próprio. Tudo o que você cadastra fica
+guardado apenas no seu celular. Não vendemos, não compartilhamos e não coletamos seus dados. Algumas funções opcionais
+consultam serviços de terceiros, descritos abaixo.</p>
+
+<p>Esta política explica como o aplicativo KM360 (pacote <code>com.rodrigomartins.km360</code>), desenvolvido por Rodrigo
+Martins, trata as informações de quem o utiliza, em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018).</p>
+
+<h2>1. Dados que ficam no seu aparelho</h2>
+<p>Veículos, abastecimentos, postos, manutenções, jornadas de trabalho, a localização da sua casa e as preferências do app
+são gravados em um banco de dados interno do KM360, no próprio celular. O desenvolvedor não tem acesso a essas
+informações, e elas não são enviadas para nenhum servidor do KM360, que não existe.</p>
+<p>Os dados permanecem no aparelho até que você os apague em <em>Ajustes → Apagar todos os dados</em>, limpe os dados do
+aplicativo nas configurações do Android ou desinstale o app. Não há cópia em nuvem, então essas ações não podem ser
+desfeitas.</p>
+
+<h2>2. Localização</h2>
+<p>O KM360 pede permissão de localização somente quando você toca em <em>Usar minha localização</em>, ao cadastrar um posto
+ou a localização da sua casa. A posição é lida uma única vez naquele momento, gravada no aparelho e usada para calcular a
+distância até os postos. O app não acompanha sua localização em segundo plano e não registra trajetos.</p>
+<p>Você pode negar a permissão e digitar as coordenadas ou o endereço manualmente.</p>
+
+<h2>3. Serviços de terceiros</h2>
+<p>Algumas funções dependem de serviços externos. Eles só recebem a informação necessária para responder, no momento em
+que você usa a função:</p>
+<div class="tabela">
+<table>
+  <tr><th>Serviço</th><th>Quando é usado</th><th>O que recebe</th></tr>
+  <tr><td>BrasilAPI</td><td>Ao buscar um posto pelo CNPJ</td><td>O CNPJ do posto, que é um dado público de empresa</td></tr>
+  <tr><td>OpenStreetMap (Nominatim)</td><td>Ao buscar coordenadas a partir de um endereço, do posto ou da sua casa</td><td>O endereço digitado</td></tr>
+  <tr><td>Google Maps</td><td>Ao abrir o mapa de postos ou a rota até um posto</td><td>As coordenadas exibidas no mapa e dados técnicos do aparelho usados pelo serviço</td></tr>
+  <tr><td>Google Play</td><td>Ao comprar ou restaurar o KM360 Pro</td><td>A compra é processada pelo Google; o KM360 recebe apenas a confirmação de que o produto foi adquirido</td></tr>
+</table>
+</div>
+<p>Esses serviços têm políticas próprias: <a href="https://brasilapi.com.br">BrasilAPI</a>,
+<a href="https://osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap Foundation</a> e
+<a href="https://policies.google.com/privacy">Google</a>. O KM360 não recebe nem guarda dados de pagamento, como número de
+cartão.</p>
+
+<h2>4. O que o KM360 não faz</h2>
+<ul>
+  <li>Não exige cadastro, login ou e-mail.</li>
+  <li>Não usa ferramentas de análise, rastreamento ou publicidade.</li>
+  <li>Não vende nem compartilha seus dados com terceiros para qualquer finalidade.</li>
+  <li>Não acessa contatos, fotos, câmera, microfone ou arquivos pessoais.</li>
+</ul>
+
+<h2>5. Exportação de dados</h2>
+<p>No KM360 Pro você pode exportar seus registros em arquivos CSV. Os arquivos são gerados no aparelho e entregues ao menu
+de compartilhamento do Android. O destino, como e-mail, Google Drive ou WhatsApp, é escolhido por você, e a partir daí
+passa a valer a política do serviço escolhido.</p>
+
+<h2>6. Seus direitos</h2>
+<p>Como os dados ficam apenas com você, é você quem os controla: pode consultar, corrigir e excluir qualquer registro
+diretamente no app, exportá-los ou apagar tudo a qualquer momento. Dúvidas sobre esta política ou sobre a LGPD podem ser
+enviadas para o contato abaixo.</p>
+
+<h2>7. Crianças</h2>
+<p>O KM360 é destinado a motoristas e não é direcionado a menores de 13 anos.</p>
+
+<h2>8. Alterações</h2>
+<p>Esta política pode ser atualizada quando o app ganhar novas funções. A data no topo indica a versão vigente, e mudanças
+relevantes serão informadas na descrição da atualização na Google Play.</p>
+
+<h2>9. Contato</h2>
+<p>Rodrigo Martins<br>
+E-mail: <a href="mailto:rod.martinslima@gmail.com">rod.martinslima@gmail.com</a></p>
+</main>
+</body>
+</html>
